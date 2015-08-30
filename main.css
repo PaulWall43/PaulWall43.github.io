@@ -94,7 +94,12 @@ header h1::first-letter {
  	color: #22A7F0;
 	
  }
-
+header h2{
+	display: block;
+	margin-bottom: 10px;
+	font-style: italic;
+	color: #444;
+}
 main{
 	/*margin-left: 15%;
 	margin-right: 15%;
@@ -131,6 +136,10 @@ aside{
 
 a{
 	color: #22A7F0;
+}
+
+button{
+	outline: none;
 }
 
 .profile{
@@ -173,9 +182,10 @@ a{
 
 .projects img{
 	width: 300px;
-	height: 300px;
+/*	height: 300px;*/
 	overflow: hidden;
 	margin-left: 15px; 
+	border: 3px solid #444;
 }
 
 .projects h2{
@@ -215,7 +225,7 @@ a{
 .contact h2{
 	display: block;
 	text-align: center;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 .contact label{
 	display: block;
@@ -300,3 +310,30 @@ footer{
 	background-attachment: fixed;
 	background-image: url(white-circles.jpg); 
 }
+
+footer .icons a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+    vertical-align: middle;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+}
+.icons a.linkedin { 
+	background: url(linkedin.png) left top no-repeat; 
+	background-color: #222;
+	border: 10px solid #222;
+	border-radius: 12px
+}
+
+.icons a.github {
+	background: url(github.png) left top no-repeat;
+	background-color: #222;
+	border: 10px solid #222;
+	border-radius: 12px
+}
+
+.icons a:hover { background-position: left -34px; }
