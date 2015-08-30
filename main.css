@@ -48,6 +48,9 @@ nav li{
     color: white;
 }
 
+nav li:first-child{
+}
+
 nav li a{
 	color: white;
 	text-decoration: none;

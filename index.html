@@ -3,11 +3,29 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+			<script type="text/javascript">
+				$(function() {
+				  	$('a[href*=#]:not([href=#])').click(function() {
+				   		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				      	var target = $(this.hash);
+				      	target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				      	if (target.length) {
+				        	$('html,body').animate({
+				          	scrollTop: target.offset().top
+				        	}, 1000);
+				        return false;
+				    }
+				}
+			});
+				  });
+			</script>
 	</head>
 
 	<body>	
 			<nav class="fixed-nav-bar">
 				<ul>
+					<li><a href="#">Paul Wallace</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#projects">Projects</a></li>
 					<li><a href="#contact">Contact</a></li>
@@ -29,9 +47,9 @@
 
 				<p>In my spare time I love learning new ideas in computer science, scripting, to make life easier, participating in coding challenges, playing tennis and pondering the possibilites of computer science in the medical field. </p> <br><br>
 
-				<p>I've been learning computer science for almost two years now and I am extremely dedicated and passionate about my work. Please <a href="#">contact me</a> if you have any questions, suggestions or opportunities for me.</p> <br><br>
+				<p>I've been learning computer science for almost two years now and I am extremely dedicated and passionate about my work. Please <a href="#contact">contact me</a> if you have any questions, suggestions or opportunities for me.</p> <br><br>
 
-				<p>Some more info...</p>
+				<p>More information coming soon...</p>
 					<!-- This is where I'll put student info, professional info and leadership info -->
 			</div>
 
