@@ -337,3 +337,7 @@ footer .icons a {
 }
 
 .icons a:hover { background-position: left -34px; }
+
+input:not(:valid) {
+	display: none;
+}

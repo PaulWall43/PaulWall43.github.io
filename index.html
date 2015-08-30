@@ -35,7 +35,7 @@
 		<div id="top">
 			<header>
 				<h1><bold>P</bold>aul <bold>W</bold>allace</h1>
-				<h2> A software engineer that also computer sciences </h2> 
+				<h2>I'm a software engineer that also computer sciences</h2> 
 				<a href="#about"><button class="button" type="submit">About</button></a> 
 				<a href="#projects"><button class="button" type="submit">Projects</button></a> 
 				<a href="#contact"><button class="button" type="submit">Contact</button></a> 
@@ -93,15 +93,16 @@
 
 			<div id="contact" class="contact">
 				<h2>Contact Me</h2>
+				<h3>This feature is down, but please connect with me on <a href="http://linkedin.com/in/paulwall43">LinkedIn</a> or <a href="mailto:paulrwall@gmail.com">Email me</a> <h3>
 				<form>
 					<label>Name</label>
-					<input id="name" type="text">
+					<input id="name" type="text" onclick='javascript: this.value = ""' onblur='javascript: this.value = ""'>
 
 					<label>Email Address</label>
-					<input id="email-address" type="text">
+					<input id="email-address" type="text" onclick='javascript: this.value = ""' onblur='javascript: this.value = ""'>
 
 					<label>Message</label>
-					<textarea id="message"></textarea>
+					<textarea id="message" onclick='javascript: this.value = ""' onblur='javascript: this.value = ""'></textarea>
 					<a href="#contact">
 						<button class="button"  type="submit">Send</button> 
 					</a>
