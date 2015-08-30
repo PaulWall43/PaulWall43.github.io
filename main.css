@@ -1,0 +1,299 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+/*html{
+  background: url(59H-from-gratisography.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+body{
+	/*background-color: #22313F;*/
+	/*background-color: #22A7F0;*/
+	/*background-image: url(subtle-geometry.jpg);*/
+	/*background-image: url(white-circles.jpg);*/
+	/*font-family: Verdana, Geneva, sans-serif;*/
+	/*font-family: Tahoma, Geneva, sans-serif*/
+	font-family: Arial, Helvetica, sans-serif
+}
+.fixed-nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	/*background-color: #22A7F0;*/
+	background-color: #afafaf;
+	font-size: 20px;
+	border-bottom: 1px solid #5c5c5c ;
+}
+
+nav ul{
+	padding-left: 15%;
+	/*text-align: center;*/
+}
+
+nav li{
+	display: inline;
+	padding: 20px;
+	height: 50px;
+    line-height: 50px;
+    color: white;
+}
+
+nav li a{
+	color: white;
+	text-decoration: none;
+}
+
+header{
+	/*padding : 50px;*/
+	padding-left: 0px;
+	padding-right: 0px;
+	/*margin-left: 5%;*/
+	/*background-color: #4183D7;*/
+	/*background-color: #efefef;*/
+	background-color: #f8f8f8;
+	/*margin-top: 50px;*/
+	width: 100%;
+	height:100vh;
+	/*background-image: url(smaller-guill-background.png);*/
+	background-attachment: fixed;
+	background-size: 100vm;
+	background-image: url(white-circles.jpg);
+	text-align: center;
+}
+
+header img{
+	width: 100%;
+}
+
+header h1{
+	display: block;
+	padding-top: 45vh;
+	text-align: center;
+	font-size: 100px;
+	/*color: #22A7F0; */
+	color: black;
+}
+
+header h1::first-letter {
+	color: #22A7F0;
+}
+ header bold{
+ 	color: #22A7F0;
+	
+ }
+
+main{
+	/*margin-left: 15%;
+	margin-right: 15%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;*/
+	background-color: white;
+	color: #444;
+}
+
+h2{
+	font-size: 40px; 
+	display: inline;
+}
+
+h3{
+	font-size: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px; 
+}
+
+p{
+	font-size: 20px;
+	display: inline;
+	line-height: 30px;
+}
+
+aside{
+	font-size: 20px;
+	line-height: 30px;
+	font-style: italic;
+	color: #666;
+}
+
+a{
+	color: #22A7F0;
+}
+
+.profile{
+	width: 200px;
+	float: left;
+	border-radius: 100px;
+	margin: 20px;
+	margin-bottom: 0;
+	border: 5px solid #22A7F0;
+}
+
+.about{
+	padding: 50px 15% 50px 15%;
+	border-top: 1px solid #dfdfdf;
+	/*background-image: url(white-circles.jpg);*/
+}
+
+.about h2{
+	color: #22A7F0;
+}
+.projects{
+	padding: 50px 15% 50px 15%;
+	background-color: #f8f8f8;
+	border-top: 1px solid #dfdfdf;
+
+}
+.projects ul{
+	list-style-type: none;
+}
+
+.project-list li:last-child{
+	border-bottom: 0 solid #000;
+}
+
+.crop{
+	width: 300px;
+	height: auto;
+	float: right;
+}
+
+.projects img{
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin-left: 15px; 
+}
+
+.projects h2{
+	display: block;
+	#text-align: center;
+	padding-bottom: 10px;
+}
+
+.projects li{
+	#text-align: center;
+}
+
+.project_title{
+
+}
+
+.project{
+	margin-bottom: 20px;
+	/*background-color: #ccc;*/
+	padding:20px;
+	line-height: 20px;
+	/*border: 2px solid #22A7F0;*/
+	border-bottom: 1px solid #bfbfbf;
+}
+
+.project p{
+	width: 10px;
+	padding-top: 20px;
+}
+
+.contact{
+	padding: 50px;
+	border-top: 1px solid #bfbfbf;
+	text-align: center;
+}
+
+.contact h2{
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.contact label{
+	display: block;
+	font-weight: bold;
+	text-align: center; 
+	font-size: 20px;
+}
+.contact textarea{
+	font-size: 25px;
+	width: 50%;
+	height: 200px;
+	display: block;
+	margin: 0px auto 20px auto;
+	border: 3px solid #5c5c5c;
+	outline: none;
+}
+.contact input{
+	width: 50%;
+	display: block;
+	margin: 0px auto 20px auto;
+	border: 3px solid #5c5c5c;
+	font-size: 25px;
+	outline: none;
+}
+
+/*.contact a{
+	display: inline;
+}
+input[type=submit]{
+	width: 100px;
+}*/
+
+.button{
+	cursor: pointer;
+	border-radius: 5px;
+	padding: 5px 10px 5px 10px; 
+	font-size: 25px; 
+	transition: .4s;
+	-webkit-transition: .4s;
+  	-moz-transition: .4s;
+  	-o-transition: .4s;
+  	display: inline-block;
+	text-decoration: none;
+	background-color: white;
+	color: #444;
+	margin: 0px 5px 0px 5px;
+}
+
+input:focus{
+	border: 3px solid #22A7F0;
+}
+
+.button:hover {
+	cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
+	color: #22A7F0;
+	border: 2px #22A7F0 solid;
+	background-color: #22A7F0;
+	color: #f8f8f8;
+}
+
+textarea:focus{
+	border: 3px solid #22A7F0;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+
+footer{
+	background-color: #f8f8f8;
+	padding: 50px;
+	text-align: center;
+	color: #22A7F0;
+	background-attachment: fixed;
+	background-image: url(white-circles.jpg); 
+}
