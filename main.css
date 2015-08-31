@@ -29,8 +29,8 @@ body{
 	z-index: 9999;
 	width: 100%;
 	height: 50px;
-	/*background-color: #22A7F0;*/
-	background-color: #afafaf;
+	background-color: #22A7F0;
+	/*background-color: #afafaf;*/
 	font-size: 20px;
 	border-bottom: 1px solid #5c5c5c ;
 }
@@ -70,7 +70,7 @@ header{
 	/*background-image: url(smaller-guill-background.png);*/
 	background-attachment: fixed;
 	background-size: 100vm;
-	background-image: url(white-circles.jpg);
+	/*background-image: url(apple-monitor.jpeg);*/
 	text-align: center;
 }
 
@@ -80,11 +80,12 @@ header img{
 
 header h1{
 	display: block;
-	padding-top: 45vh;
+	padding-top: 25vh;
 	text-align: center;
 	font-size: 100px;
 	/*color: #22A7F0; */
 	color: black;
+	margin-bottom: 10px;
 }
 
 header h1::first-letter {
@@ -96,7 +97,8 @@ header h1::first-letter {
  }
 header h2{
 	display: block;
-	margin-bottom: 10px;
+	text-align: center;
+	margin-bottom: 20px;
 	color: #444;
 }
 main{
@@ -121,9 +123,10 @@ h3{
 }
 
 p{
-	font-size: 20px;
+	font-size: 18px;
 	display: inline;
-	line-height: 30px;
+	line-height: 20px;
+	max-width: 600px;
 }
 
 aside{
@@ -141,60 +144,67 @@ button{
 	outline: none;
 }
 
+
+
+
+.about{
+	padding: 80px 15% 50px 15%;
+	border-top: 1px solid #dfdfdf;
+	height: 100%;
+	overflow: hidden;
+	/*background-image: url(white-circles.jpg);*/
+}
+
+.about-me-paragraph{
+	text-align: left;
+	float: right;
+	max-width: 650px;
+	line-height: 20px;
+}
 .profile{
 	width: 200px;
-	float: left;
 	border-radius: 100px;
 	margin: 20px;
 	margin-bottom: 0;
 	border: 5px solid #22A7F0;
 }
 
-.about{
-	padding: 50px 15% 50px 15%;
-	border-top: 1px solid #dfdfdf;
-	/*background-image: url(white-circles.jpg);*/
+.about-box{
+	display: inline-block;
+	float: left;
+	padding-bottom: 20px;
 }
-
 .about h2{
 	color: #22A7F0;
 }
+
 .projects{
 	padding: 50px 15% 50px 15%;
 	background-color: #f8f8f8;
 	border-top: 1px solid #dfdfdf;
-
 }
+
 .projects ul{
 	list-style-type: none;
+	height: 100%;
 }
 
 .project-list li:last-child{
 	border-bottom: 0 solid #000;
 }
 
-.crop{
-	width: 300px;
-	height: auto;
-	float: right;
-}
 
-.projects img{
-	width: 300px;
-/*	height: 300px;*/
-	overflow: hidden;
-	margin-left: 15px; 
-	border: 3px solid #444;
-}
 
 .projects h2{
 	display: block;
 	#text-align: center;
 	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: 20px;
 }
 
 .projects li{
-	#text-align: center;
+	overflow: auto;
 }
 
 .project_title{
@@ -203,16 +213,30 @@ button{
 
 .project{
 	margin-bottom: 20px;
-	/*background-color: #ccc;*/
-	padding:20px;
 	line-height: 20px;
-	/*border: 2px solid #22A7F0;*/
 	border-bottom: 1px solid #bfbfbf;
+	padding-bottom: 20px;
 }
 
+.project-picture{
+	width: 200px;
+	float: right;
+	margin: 20px;
+}
+
+.project-picture img{
+	max-width: 100%;
+	max-height: 100%;
+	height: auto;
+	border: 3px solid #444;
+	box-shadow:  10px 10px 5px #888888;
+}
+
+.project-paragraph{
+	max-width: 600px;
+}
 .project p{
-	width: 10px;
-	padding-top: 20px;
+	font-size:18px;
 }
 
 .contact{
@@ -224,7 +248,6 @@ button{
 .contact h2{
 	display: block;
 	text-align: center;
-	margin-bottom: 30px;
 }
 .contact label{
 	display: block;
