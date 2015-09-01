@@ -35,6 +35,7 @@ body{
 	/*background-color: #afafaf;*/
 	font-size: 20px;
 	border-bottom: 1px solid #5c5c5c ;
+/*	box-shadow:  2px 2px 5px #333;*/
 }
 
 nav ul{
@@ -73,6 +74,7 @@ header{
 	background-attachment: fixed;
 	background-size: 100vm;
 	/*background-image: url(apple-monitor.jpeg);*/
+	background-image: url(giesel-background.jpg);
 	text-align: center;
 }
 
@@ -100,7 +102,7 @@ header h1::first-letter {
 header h2{
 	display: block;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	color: #444;
 }
 main{
@@ -178,6 +180,8 @@ button{
 }
 .about h2{
 	color: #22A7F0;
+	display: inline-block;
+	padding-bottom: 20px;
 }
 
 .projects{
@@ -207,6 +211,23 @@ button{
 
 .projects li{
 	overflow: auto;
+	background-attachment: fixed;
+	padding: 20px;
+	background-image: url(paper-texture.jpg);
+}
+
+.go{
+	color: black;
+/*		background: #ffffff url(go-empty-blurred.png) no-repeat left top;*/
+}
+
+.tether{
+	color: black;
+	/*background: #ffffff url(tether-background-blurry.png) no-repeat left top;*/
+}
+
+.triton-battle{
+	color: black;
 }
 
 .project_title{
@@ -214,7 +235,7 @@ button{
 }
 
 .project{
-	margin-bottom: 20px;
+	/*margin-bottom: 20px;*/
 	line-height: 20px;
 	border-bottom: 1px solid #bfbfbf;
 	padding-bottom: 20px;
@@ -231,7 +252,7 @@ button{
 	max-height: 100%;
 	height: auto;
 	border: 3px solid #444;
-	box-shadow:  10px 10px 5px #888888;
+/*	box-shadow:  10px 10px 5px #888888;*/
 }
 
 .project-paragraph{
