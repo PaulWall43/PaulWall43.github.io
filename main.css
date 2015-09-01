@@ -305,7 +305,7 @@ input:focus{
 .button:hover {
 	cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
 	color: #22A7F0;
-	border: 2px #22A7F0 solid;
+	/*border: 2px #22A7F0 solid;*/
 	background-color: #22A7F0;
 	color: #f8f8f8;
 }
