@@ -74,7 +74,7 @@ header{
 	background-attachment: fixed;
 	background-size: 100vm;
 	/*background-image: url(apple-monitor.jpeg);*/
-	background-image: url(giesel-background.jpg);
+	background-image: url(old-town.jpg);
 	text-align: center;
 }
 
@@ -88,7 +88,7 @@ header h1{
 	text-align: center;
 	font-size: 100px;
 	/*color: #22A7F0; */
-	color: black;
+	color: white;
 	margin-bottom: 10px;
 }
 
@@ -103,7 +103,11 @@ header h2{
 	display: block;
 	text-align: center;
 	margin-bottom: 10px;
-	color: #444;
+	color: #888;
+}
+
+header h3{
+	color: white;
 }
 main{
 	/*margin-left: 15%;
@@ -195,9 +199,9 @@ button{
 	height: 100%;
 }
 
-.project-list li:last-child{
+/*.project-list li:last-child{
 	border-bottom: 0 solid #000;
-}
+}*/
 
 
 
@@ -213,7 +217,8 @@ button{
 	overflow: auto;
 	background-attachment: fixed;
 	padding: 20px;
-	background-image: url(paper-texture.jpg);
+	border: 5px solid #22A7F0;
+	/*background-image: url(paper-texture.jpg);*/
 }
 
 .go{
@@ -235,7 +240,7 @@ button{
 }
 
 .project{
-	/*margin-bottom: 20px;*/
+	margin-bottom: 20px;
 	line-height: 20px;
 	border-bottom: 1px solid #bfbfbf;
 	padding-bottom: 20px;
@@ -324,7 +329,7 @@ input:focus{
 }
 
 .button:hover {
-	cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;
+	/*cursor: url(http://cur.cursors-4u.net/symbols/sym-1/sym46.cur), auto;*/
 	color: #22A7F0;
 	/*border: 2px #22A7F0 solid;*/
 	background-color: #22A7F0;
