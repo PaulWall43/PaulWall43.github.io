@@ -20,21 +20,42 @@
 			});
 				  });
 			</script>
+
+			<script>
+				$(function() {
+					var pull 		= $('#pull');
+						menu 		= $('nav ul');
+						menuHeight	= menu.height();
+
+					$(pull).on('click', function(e) {
+						e.preventDefault();
+						menu.slideToggle();
+					});
+
+					$(window).resize(function(){
+		        		var w = $(window).width();
+		        		if(w > 320 && menu.is(':hidden')) {
+		        			menu.removeAttr('style');
+		        		}
+		    		});
+				});
+			</script>
 	</head>
 
 	<body>	
-			<nav class="fixed-nav-bar">
-				<ul>
+			<nav class="fixed-nav-bar group">
+				<ul class="group">
 					<li><a href="#top">Paul Wallace</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#projects">Projects</a></li>
 					<li><a href="#contact">Contact</a></li>
 					<li><a href="Resume-Working-3.pdf" target="_blank">Resume</a></li>
 				</ul>
+				<a href="#" id="pull">Menu</a>
 			</nav>
 		<div id="top">
 			<header>
-				<h1><bold>P</bold>aul <bold>W</bold>allace</h1>
+				<h1><a href="javascript:void(0);" id="p">P</a><a href="javascript:void(0);" id="a1">a</a><a href="javascript:void(0);" id="u">u</a><a href="javascript:void(0);" id="l1">l</a> <a href="javascript:void(0);" id="w">W</a><a href="javascript:void(0);" id="a2">a</a><a href="#" id="l2">l</a><a href="#" id="l3">l</a><a href="#" id="a3">a</a><a href="javascript:void(0);" id="c">c</a><a href="javascript:void(0);" id="e">e</a></h1>
 				<h2>Software Engineer | Computer Sciencer</h2> 
 				<h3>B.S. Computer Science Major at UCSD</h3>
 				<!--<a href="#about"><button class="button" type="submit"><p>About</p></button></a> 
@@ -45,7 +66,6 @@
 		</div>
 		<main>
 			<div id="about" class="about">
-
 				<div class="about-box"><img class="profile" src="linkedin-profile-pic-zoom.png" alt="Picture of my face"></div>
 				<div class="about-me-paragraph"<p> Simple. Clean. Efficient. Elegant. Effective. Essential.<br></br>
 
@@ -97,8 +117,8 @@
 
 			<div id="contact" class="contact">
 				<h2>Contact Me</h2>
-				<h3>This feature is down, but please connect with me on <a href="http://linkedin.com/in/paulwall43">LinkedIn</a> or <a href="mailto:paulrwall@gmail.com?subject=FROM WEBSITE&body">Email me</a> <h3>
-				<form>
+				<h3>I would leave to hear from you! Please connect with me on <a href="http://linkedin.com/in/paulwall43">LinkedIn</a> or <a href="mailto:paulrwall@gmail.com">Email me</a>. <h3>
+				<!--<form>
 					<label>Name</label>
 					<input id="name" type="text" onclick='javascript: this.value = ""' onblur='javascript: this.value = ""'>
 
@@ -110,15 +130,14 @@
 					<a href="#contact">
 						<button class="button"  type="submit">Send</button> 
 					</a>
-				</form>
+				</form>-->
 			</div>
 		</main> 
 		<footer>
-			<p>(I plan to continuously develop this website, so please check back for new features in the future.)</p>
 			<div class="icons">
 				<a class="linkedin" href="http://linkedin.com/in/paulwall43" target="_blank"></a>
 				<a class="github" href="https://github.com/PaulWall43" target="_blank"></a>
 			</div>
-			<p>&copy; A Work in Progress, Paul Wallace 2015 </p>
+			<p>&copy; Paul Wallace 2015 </p>
 		</footer>
 	</body>	
