@@ -112,7 +112,7 @@ nav a#pull {
 
 
 /*Styles for screen 515px and lower*/
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 700px) {
 		nav { 
   		height: auto;
   	}
@@ -212,11 +212,25 @@ header h1{
 	padding-top: 25vh;
 	text-align: center;
 	font-size: 100px;
+	width: 100%;
 	/*color: #22A7F0; */
 	color: #22A7F0;
 	margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 700px) {
+    header h1 {
+        font-size: 50px;
+    }
+
+    header h2{
+    	font-size: 20px;
+    }
+
+    header h3{
+    	font-size: 15px;
+    }
+}
 header a{
 	text-decoration: none;
 }
