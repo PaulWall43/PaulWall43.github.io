@@ -109,11 +109,13 @@ nav a:hover/*, nav a:active*/ {
 nav a#pull {
 	display: none;
 }
-
+.top2{
+	display: none;
+}
 
 /*Styles for screen 515px and lower*/
 @media only screen and (max-width : 700px) {
-		nav { 
+	nav { 
   		height: auto;
   	}
   	nav ul {
@@ -129,8 +131,8 @@ nav a#pull {
   		position: relative;
   	}
   	nav li a {
-/*		border-bottom: 1px solid #576979;
-		border-right: 1px solid #576979;*/
+		border-bottom: 1px solid #576979;
+/*		border-right: 1px solid #576979;*/
 	}
   	nav a {
 	  	text-align: left;
@@ -171,15 +173,48 @@ nav a#pull {
 		float: none;
 		width: 100%;
 	}
-	nav li a {
-		border-bottom: 1px solid #576979;
-	}
 }
 
 /*Smartphone Adjusted for now for larger screens even*/
 @media only screen and (max-width : 320px) {
 
 }
+
+@media only screen and (max-height: 320px) and (max-width: 700px){
+
+	nav {
+		border-bottom: 0;
+/*		height: 40px; 
+*/	}
+  	nav ul {
+		display: none;
+		height: auto;
+		/*height: 40px; */
+	}
+  	nav li {
+  		width: 50%;
+  		float: left;
+  		position: relative;
+  	}
+  	nav a{
+  		line-height: 40px;
+  	}
+
+  	nav a#pull:after{
+  		top: 10px;
+  	}
+
+  	  	nav li a {
+		border-bottom: 1px solid #576979;
+		border-right: 1px solid #576979;
+	}
+
+  	.top2{
+  		display: block;
+  	}
+
+}
+
 
 .p:hover{
 	color: #22FFFF;

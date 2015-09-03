@@ -32,6 +32,7 @@
 						menuContact = $('.contact-link');
 						menuResume  = $('.resume-link');						
 						menuHeight	= menu.height();
+						menuNothing = $('.top2'); 
 
 					$(pull).on('click', function(e) {
 						e.preventDefault();
@@ -79,6 +80,14 @@
 						}
 					}); 
 
+					$(menuNothing).on('click', function(e){
+						// e.preventDefault();
+						var w = $(window).width();
+						if(w < 700){
+							menu.slideToggle(); 
+						}
+					}); 
+
 					// $(menu).on('click', function(e) {
 					// 	//e.preventDefault();
 					// 	menu.slideToggle();
@@ -113,6 +122,7 @@
 					<li><a href="#projects" class="projects-link" ontouchend="this.onclick=fix">Projects</a></li>
 					<li><a href="#contact" class="contact-link" ontouchend="this.onclick=fix">Contact</a></li>
 					<li><a href="Resume-Working-3.pdf" class="resume-link" target="_blank">Resume</a></li>
+					<li><a href="#top" class="top2" ontouchend="this.onclick=fix">I'm a future secret</a></li> 
 				</ul>
 				<a href="#" id="pull" ontouchend="this.onclick=fix">Menu</a>
 			</nav>
