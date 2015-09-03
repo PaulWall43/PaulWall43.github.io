@@ -230,47 +230,111 @@ header h1{
     header h3{
     	font-size: 15px;
     }
+
+    /*Project adjustments as well*/
 }
+
+@media only screen and (max-width: 1300px){
+	.about{
+		padding: 0 0 15px 0 !important;
+	}
+
+	.about-box{
+		float: none !important;
+		text-align: center !important;
+	}
+
+	.about-me-paragraph{
+		padding-left: 15px;
+		padding-right: 15px;
+		float: none !important;
+		margin: 0 auto 0 auto !important;
+		text-align: center;
+	}
+
+	.projects{
+    	padding-left: 0 !important;
+    	padding-right: 0 !important;
+    }
+
+    .projects li{
+    	padding-left: 0 !important;
+    	padding-right: 0 !important;
+    }
+
+    .project-picture{
+    	float: none !important;
+    	display: block !important;
+    	margin: 0 auto 0 auto !important;
+    }
+
+    .projects h2{
+    	text-align: center !important;
+    }
+
+    .project_title{
+    	text-align: center !important;
+    }
+
+    .project-paragraph{
+    	margin: 0 auto 0 auto !important;
+    	padding-left: 15px;
+    	padding-right: 15px;
+    	text-align: center;
+    }
+
+
+    aside{
+    	text-align: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+
+}
+
+
 header a{
 	text-decoration: none;
 }
 
 
 #p:hover{
-	color: #F022A7;
+	color: #FF69B4;
 }
 #p:hover{
-	color: #F022A7;
+	color: #FF69B4;
 }
 #a1:hover{
-	color: #F022A7;
+	color: #FF69B4;
 }
 #u:hover{
-	color: #F022A7;
+	color: #FF69B4;
 }
 #l1:hover{
-	color: #F022A7;
+	color: #FF69B4;
 }
 #w:hover{
-	color: #F022A7;
+	color: #FF69B4;
 }
 #a2:hover{
-	color: #F022A7;
+	color: #FF69B4;
 }
 #l2:hover{
-	color: #F022A7;
+	color: #FF69B4;
 }
 #l3:hover{
-	color: #F022A7;
+	color: #FF69B4;
 }
 #a3:hover{
-	color: #F022A7;
+	color: #FF69B4;
 }
 #c:hover{
-	color: #F022A7;
+	color: #FF69B4;
 }
 #e:hover{
-	color: #F022A7;
+	color: #FF69B4;
 }
 
 header h2{
@@ -352,7 +416,7 @@ button{
 }
 
 .about-box{
-	display: inline-block;
+	display: block;
 	float: left;
 	padding-bottom: 20px;
 }
@@ -381,36 +445,28 @@ button{
 
 .projects h2{
 	display: block;
-	#text-align: center;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	margin-top: 20px;
+
 }
 
 .projects li{
 	overflow: auto;
 	background-attachment: fixed;
 	padding: 20px;
-	/*border: 5px solid #22A7F0;*/
-	/*background-image: url(paper-texture.jpg);*/
 }
 
 .go{
 	color: black;
-/*		background: #ffffff url(go-empty-blurred.png) no-repeat left top;*/
 }
 
 .tether{
 	color: black;
-	/*background: #ffffff url(tether-background-blurry.png) no-repeat left top;*/
 }
 
 .triton-battle{
 	color: black;
-}
-
-.project_title{
-
 }
 
 .project{
@@ -423,6 +479,7 @@ button{
 .project-picture{
 	width: 200px;
 	float: right;
+/*	margin: 0 auto 0 auto;*/
 	margin: 40px;
 }
 
@@ -431,7 +488,6 @@ button{
 	max-height: 100%;
 	height: auto;
 	border: 3px solid #444;
-/*	box-shadow:  10px 10px 5px #888888;*/
 }
 
 .project-paragraph{
