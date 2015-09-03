@@ -249,7 +249,7 @@ header h1{
 		padding-right: 15px;
 		float: none !important;
 		margin: 0 auto 0 auto !important;
-		text-align: center;
+		text-align: center !important;
 	}
 
 	.projects{
