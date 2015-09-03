@@ -165,11 +165,8 @@ nav a#pull {
 	nav a#pull:hover{
 		background-color: #22FFFF;
 	}
-}
 
-/*Smartphone*/
-@media only screen and (max-width : 320px) {
-	nav li {
+		nav li {
 		display: block;
 		float: none;
 		width: 100%;
@@ -177,6 +174,11 @@ nav a#pull {
 	nav li a {
 		border-bottom: 1px solid #576979;
 	}
+}
+
+/*Smartphone Adjusted for now for larger screens even*/
+@media only screen and (max-width : 320px) {
+
 }
 
 .p:hover{
@@ -419,6 +421,7 @@ button{
 	display: block;
 	float: left;
 	padding-bottom: 20px;
+	padding-top: 50px;
 }
 .about h2{
 	color: #22A7F0;
