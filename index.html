@@ -21,9 +21,7 @@
 				}
 			});
 				  });
-			</script>
 
-			<script>
 				$(function() {
 					var pull 		= $('#pull');
 						menu 		= $('nav ul');
@@ -41,6 +39,16 @@
 		        		}
 		    		});
 				});
+
+				
+				function fix()
+				{
+				    var el = this;
+				    var par = el.parentNode;
+				    var next = el.nextSibling;
+				    par.removeChild(el);
+				    setTimeout(function() {par.insertBefore(el, next);}, 0)
+				}
 			</script>
 	</head>
 
@@ -53,7 +61,7 @@
 					<li><a href="#contact">Contact</a></li>
 					<li><a href="Resume-Working-3.pdf" target="_blank">Resume</a></li>
 				</ul>
-				<a href="#" id="pull">Menu</a>
+				<a href="#" id="pull" ontouchend="this.onclick=fix">Menu</a>
 			</nav>
 		<div id="top">
 			<header>
