@@ -103,7 +103,7 @@ nav li a{
 nav li:last-child a {
 	border-right: 0;
 }
-nav a:hover, nav a:active {
+nav a:hover/*, nav a:active*/ {
 	background-color: #22FFFF;
 }
 nav a#pull {
