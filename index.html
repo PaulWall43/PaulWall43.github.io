@@ -6,112 +6,9 @@
 		<title>Paul Wallace</title>
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="responsive.css">
+		<link rel="stylesheet" href="animation.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-			<script type="text/javascript">
-				$(function() {
-				  	$('a[href*=#]:not([href=#])').click(function() {
-				   		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-				      	var target = $(this.hash);
-				      	target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-				      	if (target.length) {
-				        	$('html,body').animate({
-				          	scrollTop: target.offset().top
-				        	}, 1000);
-				        return false;
-					    }
-					}
-				});
-			});
-
-				$(function() {
-					var pull 		= $('#pull');
-						menu 		= $('nav ul');
-						menuTop = $('.top'); 
-						menuAbout = $('.about-link');
-						menuProjects = $('.projects-link');
-						menuContact = $('.contact-link');
-						menuResume  = $('.resume-link');						
-						menuHeight	= menu.height();
-						menuNothing = $('.top2'); 
-
-					$(pull).on('click', function(e) {
-						e.preventDefault();
-						menu.slideToggle();
-
-					});
-
-					$(menuTop).on('click', function(e){
-						// e.preventDefault();
-						var w = $(window).width();
-						if(w < 700){
-							menu.slideToggle(); 
-						}
-					}); 
-
-					$(menuAbout).on('click', function(e){
-						// e.preventDefault();
-						var w = $(window).width();
-						if(w < 700){
-							menu.slideToggle(); 
-						}
-					}); 
-
-					$(menuProjects).on('click', function(e){
-						// e.preventDefault();
-						var w = $(window).width();
-						if(w < 700){
-							menu.slideToggle(); 
-						}
-					}); 
-
-					$(menuContact).on('click', function(e){
-						// e.preventDefault();
-						var w = $(window).width();
-						if(w < 700){
-							menu.slideToggle(); 
-						}
-					}); 
-
-					$(menuResume).on('click', function(e){
-						// e.preventDefault();
-						var w = $(window).width();
-						if(w < 700){
-							menu.slideToggle(); 
-						}
-					}); 
-
-					$(menuNothing).on('click', function(e){
-						// e.preventDefault();
-						var w = $(window).width();
-						if(w < 700){
-							menu.slideToggle(); 
-						}
-					}); 
-
-					// $(menu).on('click', function(e) {
-					// 	//e.preventDefault();
-					// 	menu.slideToggle();
-					// });
-
-					$(window).resize(function(){
-		        		var w = $(window).width();
-		        		if(w > 320 && menu.is(':hidden')) {
-		        			menu.removeAttr('style');
-		        		}
-		    		});
-				});
-
-				
-				function fix()
-				{
-				    var el = this;
-				    var par = el.parentNode;
-				    var next = el.nextSibling;
-				    par.removeChild(el);
-				    setTimeout(function() {par.insertBefore(el, next);}, 0)
-				}
-
-			</script>
 	</head>
 
 	<body>	
@@ -121,7 +18,7 @@
 					<li><a href="#about" class="about-link"ontouchend="this.onclick=fix">About</a></li>
 					<li><a href="#projects" class="projects-link" ontouchend="this.onclick=fix">Projects</a></li>
 					<li><a href="#contact" class="contact-link" ontouchend="this.onclick=fix">Contact</a></li>
-					<li><a href="Resume-Working-3.pdf" class="resume-link" target="_blank">Resume</a></li>
+					<li><a href="Files/Resume-Working-3.pdf" class="resume-link" target="_blank">Resume</a></li>
 					<li><a href="#top" class="top2" ontouchend="this.onclick=fix">I'm a future secret</a></li> 
 				</ul>
 				<a href="#" id="pull" ontouchend="this.onclick=fix">Menu</a>
@@ -129,7 +26,7 @@
 		<div id="top">
 			<header>
 				<h1><a href="javascript:void(0);" id="p">P</a><a href="javascript:void(0);" id="a1">a</a><a href="javascript:void(0);" id="u">u</a><a href="javascript:void(0);" id="l1">l</a> <a href="javascript:void(0);" id="w">W</a><a href="javascript:void(0);" id="a2">a</a><a href="#" id="l2">l</a><a href="#" id="l3">l</a><a href="#" id="a3">a</a><a href="javascript:void(0);" id="c">c</a><a href="javascript:void(0);" id="e">e</a></h1>
-				<h2>Software Engineer | Computer Sciencer</h2> 
+				<h2><span class="software-engineer">Software Engineer</span> | <span class="computer-sciencer">Computer Sciencer</span></h2> 
 				<h3>B.S. Computer Science Major at UCSD</h3>
 				<!--<a href="#about"><button class="button" type="submit"><p>About</p></button></a> 
 				<a href="#projects"><button class="button" type="submit"><p>Projects</p></button></a> 
@@ -139,7 +36,7 @@
 		</div>
 		<main>
 			<div id="about" class="about">
-				<div class="about-box group"><img class="profile" src="linkedin-profile-pic-zoom.png" alt="Picture of my face"></div>
+				<div class="about-box group"><img class="profile" src="Pictures/linkedin-profile-pic-zoom.png" alt="Picture of my face"></div>
 				<div class="about-me-paragraph"><p> Simple. Clean. Efficient. Elegant. Effective. Essential.<br></br>
 
 				 These are the words I live by as a software engineer and computer scientist. In all my work I enjoy creating simple yet beautiful applications that makes the complex easy to understand.<br></br> 
@@ -157,7 +54,7 @@
 				<h2>Some past work</h2>
 				<ul class="project-list">
 					<li class="project tether">
-							<div class="project-picture group"><img src="TetherClassPage.png" alt="Tether Class Page"></div> 
+							<div class="project-picture group"><img src="Pictures/TetherClassPage.png" alt="Tether Class Page"></div> 
 							<h3 class="project_title">Tether</h3>
 							<aside>An application that brings the modern world to the classroom. </aside><br><br>
 
@@ -169,7 +66,7 @@
 							</p></div>
 					</li>
 					<li class="project go">
-							<div class="project-picture group"><img src="GoScreenShot.png" alt="Go Screen Shot"></div>
+							<div class="project-picture group"><img src="Pictures/GoScreenShot.png" alt="Go Screen Shot"></div>
 							<h3 class="project_title">Go</h3>
 							<aside>An ancient board game to improve my skills.</aside><br>
 
@@ -178,7 +75,7 @@
 							Just recently I've begun implementing a basic AI for this. It's a work in progress you could say. If you want to follow me along with the project hop on over to <a href="https://github.com/PaulWall43" target="_blank">my github</a> and check out the repository named "Go".</p></div>
 					</li>
 					<li class="project triton-battle">
-							<div class="project-picture group"><img src="TritonBattlesScreenShot.png" alt="Triton Battles Home Page"> </div>  
+							<div class="project-picture group"><img src="Pictures/TritonBattlesScreenShot.png" alt="Triton Battles Home Page"> </div>  
 							<h3 class="project_title">Triton Battles</h3>
 							<aside>Competition that inspires academic exellence.</aside><br></br>
 							<div class="project-paragraph"><p><a href="https://tritonbattles.herokuapp.com/Homepage.html" target="_blank">Triton Battles</a> is a website where students can compete against themselves and each other using user-created index cards. The competition aspect of the website motivates students to learn in a different way and thus can aid in the retention of information and critical thinking under pressure.<br></br>
@@ -211,6 +108,7 @@
 				<a class="linkedin" href="http://linkedin.com/in/paulwall43" target="_blank"></a>
 				<a class="github" href="https://github.com/PaulWall43" target="_blank"></a>
 			</div>
-			<p>&copy; Paul Wallace 2015 </p>
+			<p>&copy; Paul Wallace 2015 ;</p>
 		</footer>
+		<script src="scriptfile.js"></script> 
 	</body>	
