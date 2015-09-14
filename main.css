@@ -16,7 +16,8 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   border: 0;
   margin: 0;
   font: inherit;
-  font-size: 100%;
+  font-size: 16px; /*Default size*/
+  /*font-size: 100%*/
 }
 
 /*html{
@@ -37,6 +38,7 @@ body{
 	/*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
 	/*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
 	font-family: 'PT Sans', Arial, sans-serif;
+	font-size: 62.5%; 
 }
 nav {
 	/*position: fixed;
@@ -89,6 +91,7 @@ nav a{
 	text-align: center;
 	text-decoration: none;
 	line-height: 50px;
+	font-size: 1.1em;
 /*	text-shadow: 1px 1px 0px #283744;*/
 }
 nav li a{
@@ -161,6 +164,7 @@ header h1{
 
 header a{
 	text-decoration: none;
+	font-size: 1em;
 }
 
 header h2{
@@ -233,6 +237,9 @@ button{
 	max-width: 650px;
 	line-height: 20px;
 }
+.about-me-paragraph a{
+	font-size: 1em;
+}
 .profile{
 	width: 200px;
 	border-radius: 100px;
@@ -284,6 +291,7 @@ button{
 	padding: 20px;
 }
 
+
 .go{
 	color: black;
 }
@@ -319,6 +327,11 @@ button{
 
 .project-paragraph{
 	max-width: 600px;
+
+}
+
+.project-paragraph a{
+	font-size: 1em;
 }
 .project p{
 	font-size:18px;
@@ -333,6 +346,10 @@ button{
 .contact h2{
 	display: block;
 	text-align: center;
+}
+
+.contact h3 a{
+	font-size: 1em;
 }
 .contact label{
 	display: block;

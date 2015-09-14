@@ -58,6 +58,10 @@
 		float: none;
 		width: 100%;
 	}
+
+  .project-picture{
+    width: 300px;
+  }
 }
 
 /*Smartphone Adjusted for now for larger screens even*/
