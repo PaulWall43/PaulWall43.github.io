@@ -228,6 +228,8 @@ button{
 	border-top: 1px solid #dfdfdf;
 	height: 100%;
 	overflow: hidden;
+
+	/*border: 10px solid black;*/
 	/*background-image: url(white-circles.jpg);*/
 }
 
@@ -236,6 +238,8 @@ button{
 	float: right;
 	max-width: 650px;
 	line-height: 20px;
+	font-size: 1em;
+	/*border: 10px solid black;*/
 }
 .about-me-paragraph a{
 	font-size: 1em;
