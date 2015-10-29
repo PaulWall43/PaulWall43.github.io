@@ -228,14 +228,15 @@ button{
 	border-top: 1px solid #dfdfdf;
 	height: 100%;
 	overflow: hidden;
-	
+	width: 1200px;
+	border: 10px solid black;
 	/*border: 10px solid black;*/
 	/*background-image: url(white-circles.jpg);*/
 }
 
 .about-contain{
-	width: 1200px;
-	border: 10px solid black;
+	
+	
 }
 .about-me-paragraph{
 	text-align: left;
