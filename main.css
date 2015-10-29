@@ -185,7 +185,6 @@ main{
 	margin-bottom: 50px;*/
 	background-color: white;
 	color: #444;
-	max-width: 1500px;
 }
 
 h2{
@@ -229,7 +228,7 @@ button{
 	border-top: 1px solid #dfdfdf;
 	height: 100%;
 	overflow: hidden;
-
+	max-width: 1400px;
 	/*border: 10px solid black;*/
 	/*background-image: url(white-circles.jpg);*/
 }
