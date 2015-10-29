@@ -304,10 +304,10 @@ button{
 	overflow: auto;
 	background-attachment: fixed;
 	padding: 20px;
-	border-bottom: 5px solid #bfbfbf;
+	border-bottom: 10px solid #bfbfbf;
 }
 
-.projects li::last-child{
+.projects ul::last-child li{
 	border-bottom: 0px solid #bfbfbf;
 }
 
