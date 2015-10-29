@@ -307,7 +307,7 @@ button{
 	border-bottom: 1px solid #bfbfbf;
 }
 
-.projects ul:last-child li{
+.projects li:last-child{
 	border-bottom: 0px solid #bfbfbf;
 }
 
