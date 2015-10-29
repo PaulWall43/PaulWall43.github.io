@@ -228,7 +228,7 @@ button{
 	border-top: 1px solid #dfdfdf;
 	height: 100%;
 	overflow: hidden;
-	width: 1200px;
+	max-width: 1000px;
 	border: 10px solid black;
 	/*border: 10px solid black;*/
 	/*background-image: url(white-circles.jpg);*/
