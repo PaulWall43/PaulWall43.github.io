@@ -229,7 +229,7 @@ button{
 	height: 100%;
 	overflow: hidden;
 	max-width: 1000px;
-	border: 10px solid blue;
+	/*border: 10px solid blue;*/
 	margin: 0 auto 0 auto; 
 	/*border: 10px solid black;*/
 	/*background-image: url(white-circles.jpg);*/
