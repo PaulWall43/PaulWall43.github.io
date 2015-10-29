@@ -294,10 +294,8 @@ button{
 	display: block;
 	padding-bottom: 10px;
 	padding-top: 10px;
-text-align: center;
+	text-align: center;
 	margin-top: 20px;
-
-	border-top: 1px solid #dfdfdf;
 
 
 }
@@ -324,9 +322,11 @@ text-align: center;
 .project{
 	margin-bottom: 20px;
 	line-height: 20px;
-	border-bottom: 1px solid #bfbfbf;
+	/*border-bottom: 1px solid #bfbfbf;*/
 	padding-bottom: 20px;
 }
+
+
 
 .project-picture{
 	width: 400px;
