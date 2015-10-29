@@ -274,11 +274,12 @@ button{
 	padding: 50px 15% 50px 15%;
 	background-color: #f8f8f8;
 	border-top: 1px solid #dfdfdf;
-	max-width: 1000px;
-	margin: 0 auto 0 auto;
+	
 }
 
 .projects ul{
+	max-width: 1000px;
+	margin: 0 auto 0 auto;
 	list-style-type: none;
 	height: 100%;
 }
