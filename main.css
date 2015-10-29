@@ -307,6 +307,10 @@ button{
 	border-bottom: 1px solid #bfbfbf;
 }
 
+.projects li::last-child{
+	border-bottom: 0px solid #bfbfbf;
+}
+
 
 .go{
 	color: black;
