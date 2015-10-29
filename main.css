@@ -234,7 +234,8 @@ button{
 }
 
 .about-contain{
-	max-width: 1200px;
+	width: 1200px;
+	border: 10px solid black;
 }
 .about-me-paragraph{
 	text-align: left;
