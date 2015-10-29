@@ -304,7 +304,7 @@ button{
 	overflow: auto;
 	background-attachment: fixed;
 	padding: 20px;
-	border-bottom: 1px solid #bfbfbf;
+	border-bottom: 5px solid #bfbfbf;
 }
 
 .projects li::last-child{
