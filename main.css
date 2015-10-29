@@ -304,6 +304,7 @@ button{
 	overflow: auto;
 	background-attachment: fixed;
 	padding: 20px;
+	border-bottom: 1px solid #bfbfbf;
 }
 
 
