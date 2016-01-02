@@ -324,9 +324,7 @@ button{
 	color: black;
 }
 
-.foodar.project-paragraph{
-	max-width: 500px;
-}
+
 .project{
 	margin-bottom: 20px;
 	line-height: 20px;
@@ -353,6 +351,10 @@ button{
 .project-paragraph{
 	max-width: 600px;
 
+}
+
+.foodar.project-paragraph{
+	max-width: 500px;
 }
 
 .project-paragraph a{
