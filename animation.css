@@ -247,6 +247,7 @@
 }
 
 /*Used to have a thing here about things*/
+/*
 h1 a{
 	-webkit-transition: color 0.3s;
 	        transition: color 0.3s;
@@ -317,6 +318,13 @@ h1 a{
 	filter: alpha(opacity=0);
 	-webkit-animation: trafficRight 1s 1s forwards, colorChange 1s 2.0s;
 	        animation: trafficRight 1s 1s forwards, colorChange 1s 2.0s;
+}
+
+*/
+
+h1{
+	-webkit-animation: slideRight 1s;
+	    	animation: slideRight 1s;
 }
 
 
