@@ -62,6 +62,8 @@
   .project-picture{
     width: 300px;
   }
+
+
 }
 
 /*Smartphone Adjusted for now for larger screens even*/
@@ -129,6 +131,7 @@
 	.about-box{
 		float: none !important;
 		text-align: center !important;
+    padding-bottom: 10px;
 	}
 
 	.about-me-paragraph{
@@ -153,6 +156,13 @@
     	float: none !important;
     	display: block !important;
     	margin: 0 auto 0 auto !important;
+    }
+
+    .project-picture img{
+      max-width: 100%;
+      float: none !important;
+      display: block !important;
+      margin: 0 auto 0 auto !important;
     }
 
     .projects h2{

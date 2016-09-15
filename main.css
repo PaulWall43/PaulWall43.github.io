@@ -224,7 +224,7 @@ button{
 
 
 .about{
-	padding: 80px 15% 50px 15%;
+	padding: 80px 15% 0px 15%;
 	border-top: 1px solid #dfdfdf;
 	height: 100%;
 	overflow: hidden;
@@ -253,7 +253,7 @@ button{
 .profile{
 	width: 200px;
 	border-radius: 100px;
-	margin: 20px;
+	margin: 0;
 	margin-bottom: 0;
 	border: 5px solid #22A7F0;
 }
@@ -261,8 +261,8 @@ button{
 .about-box{
 	display: block;
 	float: left;
-	padding-bottom: 20px;
-	padding-top: 50px;
+	padding-bottom: 120px;
+	padding-top: 10px;
 }
 .about h2{
 	color: #22A7F0;
