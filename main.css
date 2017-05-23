@@ -245,6 +245,7 @@ button{
 	max-width: 650px;
 	line-height: 20px;
 	font-size: 1em;
+	padding-top: 7%
 	/*border: 10px solid black;*/
 }
 .about-me-paragraph a{
