@@ -1,0 +1,25 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400');
+body {
+	font-family: "Titillium Web", sans-serif;
+}
+h1 {
+	font-size: 5em;
+	font-weight: 200;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 200;
+}
+
+
+
+.flexRow {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+
+

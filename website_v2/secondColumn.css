@@ -1,0 +1,10 @@
+.secondColumn {
+	width: 50%;
+	height: 90vh;
+	border-right: 1px solid black;
+}
+
+.resumePdf {
+	width: 100%;
+	height: 90vh;
+}

@@ -1,0 +1,34 @@
+.firstColumn {
+	border-right: 1px solid black;
+	width: 25%;
+	height: 90vh;
+}
+
+.profileImage {
+	background-color: black;
+	border-radius: 5em;
+	width: 10em;
+	height: 10em;
+}
+
+.profileBullets {
+	padding: 1em;
+}
+
+.profileBullets li {
+	padding: 0.3em;
+}
+
+/*The ul holding the bullet points is profileBullets*/
+.profileBullets li * {
+	display: inline;
+}
+
+.profileFlexContainer {}
+
+.profileIcon {
+	width: 1.8em;
+	height: 1.8em;
+}
+
+.profile
